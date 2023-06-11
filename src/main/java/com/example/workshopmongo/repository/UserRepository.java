@@ -8,7 +8,5 @@ import com.aula.course.entities.User;
 @Repository
 public interface UserRepository extends MongoRepository<User, String> {
 
-	void save(com.example.workshopmongo.domain.User maria);
-
 	
 }
